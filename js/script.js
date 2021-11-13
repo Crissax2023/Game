@@ -37,9 +37,9 @@ canvas.addEventListener('mousedown',function(e)
 
 //jugador
 const perrijo1 = new Image();
-perrijo1.src = 'img/imagen1.png';
+perrijo1.src = '/img/imagen1.png';
 const perrijo2 = new Image();
-perrijo2.src = 'img/imagen2.png';
+perrijo2.src = '/img/imagen2.png';
 
 
 class Dirty{
@@ -119,7 +119,7 @@ const dirty = new Dirty();
 const jabonArray = [];
 
 const jabonImagen = new Image();
-jabonImagen.src ='img/bubble_pop_frame_02.png'
+jabonImagen.src ='/img/bubble_pop_frame_02.png'
 
 
     class jabon{
@@ -154,9 +154,9 @@ jabonImagen.src ='img/bubble_pop_frame_02.png'
     }
 
 const sonido = document.createElement('audio');
-sonido.src =  'music/perro.wav'
+sonido.src =  '/music/perro.wav'
 const sonido2 = document.createElement('audio');
-sonido2.src = 'music/jab.wav';
+sonido2.src = '/music/jab.wav';
 
 
 const sonido3 = document.createElement('audio');
