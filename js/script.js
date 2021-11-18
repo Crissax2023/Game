@@ -37,9 +37,9 @@ canvas.addEventListener('mousedown',function(e)
 
 //jugador
 const perrijo1 = new Image();
-perrijo1.src = '/img/imagen1.png';
+perrijo1.src = './img/imagen1.png';
 const perrijo2 = new Image();
-perrijo2.src = '/img/imagen2.png';
+perrijo2.src = './img/imagen2.png';
 
 
 class Dirty{
@@ -119,7 +119,7 @@ const dirty = new Dirty();
 const jabonArray = [];
 
 const jabonImagen = new Image();
-jabonImagen.src ='/img/bubble_pop_frame_02.png'
+jabonImagen.src ='./img/bubble_pop_frame_02.png'
 
 
     class jabon{
@@ -154,13 +154,13 @@ jabonImagen.src ='/img/bubble_pop_frame_02.png'
     }
 
 const sonido = document.createElement('audio');
-sonido.src =  '/music/perro.wav'
+sonido.src =  './music/perro.wav'
 const sonido2 = document.createElement('audio');
-sonido2.src = '/music/jab.wav';
+sonido2.src = './music/jab.wav';
 
 
 const sonido3 = document.createElement('audio');
-sonido3.src = 'music/JungleSouthAmerica EE201201.mp3';
+sonido3.src = './music/JungleSouthAmerica EE201201.mp3';
 
 function jabonesM()
 {
@@ -212,7 +212,7 @@ function jabonesM()
 
 
 const puntos = new Image();
-puntos.src = 'img/long.png';
+puntos.src = './img/long.png';
 
 function fondo_puntos(){
     ctx.drawImage(puntos,1050,0,1000,300);
@@ -220,7 +220,7 @@ function fondo_puntos(){
 
 
 const fondo1 = new Image();
-fondo1.src = 'img/parque.jpg';
+fondo1.src = './img/parque.jpg';
 
 function parque(){
     ctx.drawImage(fondo1,0,0,3000,2000);
@@ -228,14 +228,14 @@ function parque(){
 
 
 const fondo2 = new Image();
-fondo2.src = 'img/branch.png';
+fondo2.src = './img/branch.png';
 
 function branch(){
     ctx.drawImage(fondo2,500,1800,3000,150);
 }
 
 const fondo3 = new Image();
-fondo3.src = 'img/CLOUDSsprite.png';
+fondo3.src = './img/CLOUDSsprite.png';
 
 
 
@@ -257,7 +257,7 @@ if(F3.x1 < -F3.width) F3.x1 = canvas.width;
 //enemigos - lodo
 
 const fondo4 = new Image();
-fondo4.src = 'img/pngwing.com (1).png';
+fondo4.src = './img/pngwing.com (1).png';
 
 class Enemy{
     constructor(){
@@ -307,7 +307,7 @@ function enemigos()
 
 
 const gameover_fondo = new Image();
-gameover_fondo.src = 'img/mid_ground_cloud_2.png';
+gameover_fondo.src = './img/mid_ground_cloud_2.png';
 
 function fondo_perdio(){
     ctx.drawImage(gameover_fondo,500,750,2000,400);
